@@ -2,8 +2,10 @@ export default function BuilderPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center p-6 bg-gray-50">
       <div className="w-full max-w-2xl bg-white p-8 rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">Build Your Survey</h1>
-        
+        <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">
+          Build Your Survey
+        </h1>
+
         <form className="flex flex-col gap-4">
           <textarea
             placeholder="Describe what you want to research..."
